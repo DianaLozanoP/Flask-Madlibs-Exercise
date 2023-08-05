@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{%block content%}
+    <h1>Madlibs</h1>
+    <div id="formdiv">
+    <form action="/finalstory">
+        <label>Place:</label>
+        <input type="text" name="place">
+        <br> <br>
+        <label>Noun:</label>
+        <input type="text" name="noun">
+        <br><br>
+        <label>Verb:</label>
+        <input type="text" name="verb">
+        <br><br>
+        <label>Adjective:</label>
+        <input type="text" name="adjective">
+        <br><br>
+        <label>Plural_noun:</label>
+        <input type="text" name="plural_noun">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>  
+{%endblock%}

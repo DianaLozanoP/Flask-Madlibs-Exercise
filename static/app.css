@@ -1,0 +1,14 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+}
+body{
+    background-color: lightpink;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+p{
+    font-size: medium;
+}
